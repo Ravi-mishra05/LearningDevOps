@@ -1,0 +1,38 @@
+####################################################################
+                    linux/bash Commands
+####################################################################
+
+cat /etc/os-release -- for linux system.
+whoami -- to check the user of the system.
+echo $0 -- to check the current bash type.
+cat /etc/shells -- to check the available shells in the system.
+pwd -- to check the working directory.
+cd -- to change the directory.
+ls -- list the items of a directory.
+ls -ltr  -- to list and check the permissions of the file.
+chmod +rwx filename   -- add permissionsto a file.
+
+cat file.csv | awk 'NR!=1 {print}'
+
+at - to shedule a job
+atq - to list the scheduled jobs
+atrm - remove a scheduled job
+crontab -l 
+crontab -e   --> to create a job which happens regularly over a period of time.
+refer - crontab.guru
+
+
+
+
+
+####################################################################
+                    VI EDITOR Commands
+####################################################################
+
+
+dd - delete a line
+u -- undo
+ctrl + r -- redo
+i -- insert
+o -- insert in below line
+
